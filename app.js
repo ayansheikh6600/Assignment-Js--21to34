@@ -28,3 +28,42 @@
 // var nationality = "Pakistani"
 // console.log("String" + nationality)
 // console.log("Character at index 3:" + nationality[3])
+
+//Question#6
+// var fisrtName = prompt("enter first name")
+// var lastName = prompt("Enter Last Name")
+// var fullName = fisrtName.concat(lastName)
+// alert(fullName)
+
+
+//Question#7
+// var firstcity = "Hyderabad"
+// var after= "Islam"
+// var replacement= after + firstcity.slice(5)
+// document.write("City " + firstcity + "<br>")
+// document.write(replacement)
+
+//Question#8
+// var message ="Ali and Sami are best friends. They play cricket and football together.";
+// // console.log(message.indexOf("and".replace("&")))
+// message = message.replace(/and/g,"&")
+// console.log(message)
+
+// Question#9
+// var value = "472"
+// document.write("Value: " + value + "<br>Type: " + typeof(value) + "<br>")
+// value = +value
+// document.write("Value: " + value + "<br>Type: " + typeof(value) + "<br>")
+
+// Question#10
+// var userinput = prompt("Enter your Name")
+// console.log("User Input: " , userinput)
+// userinput= userinput.toUpperCase();
+// console.log("Upper Case: " , userinput)
+
+// Question#11
+// var name1 = "javascript"
+// console.log(name1)
+// name1 = name1[0].toUpperCase()+name1.slice(1)
+// console.log(name1)
+
